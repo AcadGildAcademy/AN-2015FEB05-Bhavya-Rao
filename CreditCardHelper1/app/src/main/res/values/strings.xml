@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Credit Card Helper1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tv1">Enter Card Balance($)</string>
+    <string name="tv2">Enter Yearly Interest Rate(%)</string>
+    <string name="tv3">Enter Minimum Payment($)</string>
+    <string name="tv4">Find Card Balance($)</string>
+    <string name="tv5">Months Remaining</string>
+    <string name="tv6">Interest Paid Will Be($)</string>
+    <string name="bt1">SUBMIT</string>
+    <string name="bt2">CLEAR</string>
+
+</resources>
