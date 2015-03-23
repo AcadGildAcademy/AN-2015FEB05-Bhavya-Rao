@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ToDo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="e1">Title</string>
+    <string name="e2">Description</string>
+    <string name="bt1">Save</string>
+    <string name="bt2">Cancel</string>
+</resources>
