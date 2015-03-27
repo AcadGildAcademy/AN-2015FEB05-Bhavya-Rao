@@ -14,7 +14,7 @@ import android.content.DialogInterface;
 /**
  * Created by Bhavya Rao on 22-03-2015.
  */
-public class customdialog extends ActionBarActivity
+public class Customdialog extends ActionBarActivity
 {
     EditText et1,et2;
     DatePicker dp;
@@ -31,11 +31,11 @@ public class customdialog extends ActionBarActivity
         AlertDialog.Builder dia = new AlertDialog.Builder(getApplicationContext());
         dia.setView(promptsView);
 
-       et1=(EditText)findViewById(R.id.e1);
-       et2=(EditText)findViewById(R.id.e2);
-       dp=(DatePicker)findViewById(R.id.datePicker);
-       bt1=(Button)findViewById(R.id.b1);
-       bt2=(Button)findViewById(R.id.b2);
+       et1=(EditText)promptsView.findViewById(R.id.e1);
+       et2=(EditText)promptsView.findViewById(R.id.e2);
+       dp=(DatePicker)promptsView.findViewById(R.id.datePicker);
+       bt1=(Button)promptsView.findViewById(R.id.b1);
+       bt2=(Button)promptsView.findViewById(R.id.b2);
         bt1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
